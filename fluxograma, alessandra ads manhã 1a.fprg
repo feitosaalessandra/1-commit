@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="nota do aluno"/>
+        <attribute name="authors" value="limaf"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-25 03:53:13 "/>
+        <attribute name="created" value="bGltYWY7TEFQVE9QLTlHU0swTjZNOzIwMjQtMDgtMjU7IjAzOjI0OjQ3ICI7Mjc3MQ=="/>
+        <attribute name="edited" value="bGltYWY7TEFQVE9QLTlHU0swTjZNOzIwMjQtMDgtMjU7IjAzOjUzOjEzICI7MTsyODc0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="nota1, nota2, nota3, nota4, media" type="Real" array="False" size=""/>
+            <output expression="&quot;digite o nome do aluno&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;digite a nota do primeiro bimestre&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;digite a nota do segudo bimestre&quot;" newline="True"/>
+            <input variable="nota2"/>
+            <output expression="&quot;digite a nota do terceiro bimestre&quot;" newline="True"/>
+            <input variable="nota3"/>
+            <output expression="&quot;digite a nota do quarto bimestre&quot;" newline="True"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+        </body>
+    </function>
+</flowgorithm>
